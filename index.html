@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Septian Alfisyahri" />
+    <title>ADLIVINGSON STUDIO</title>
+    <link rel="icon" href="icon/favicon.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <style>
+      .portfolio-button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: #5A5343;
+        color: white;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .portfolio-button:hover {
+        background-color: #7A6E5C;
+      }
+
+      .service-card {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <div class="branding">
+        <img src="logo/ADLIVING as.png" alt="logo perusahaan" width="400" />
+        <h4>Refined Living, Crafted To Perfection</h4>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#company-portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="hero" data-aos="fade-up">
+      <h2>The Best Solution for Your Needs</h2>
+      <p>
+        We are an interior design studio creating elegant, functional, and
+        character-filled spaces. Every project is thoughtfully tailored to the
+        client's needs, from concept planning and material selection to precise
+        execution, blending beauty with everyday living.
+      </p>
+    </section>
+
+    <section id="services" data-aos="fade-up">
+      <h3>Our Services</h3>
+      <div class="services-grid">
+        <a href="#" class="service-card" data-service="Interior Design">Interior Design</a>
+        <a href="#" class="service-card" data-service="Residential & Commercial Design">Residential & Commercial Design</a>
+        <a href="#" class="service-card" data-service="2D Drawing">2D Drawing</a>
+        <a href="#" class="service-card" data-service="3D Rendering">3D Rendering</a>
+        <a href="#" class="service-card" data-service="Custom Furniture & Built In Solutions">Custom Furniture & Built In Solutions</a>
+        <a href="#" class="service-card" data-service="Design Consultation">Design Consultation</a>
+      </div>
+    </section>
+
+    <section id="company-portfolio" data-aos="fade-up">
+      <h2 style="text-align: center;">Company Portfolio</h2>
+      <p style="text-align: center; margin: 1rem 0;">
+        We've compiled a collection of our best projects that can be accessed through Google Drive.
+      </p>
+      <div style="text-align: center;">
+        <a
+          href="https://drive.google.com/file/d/1GDmnG8OtZy7iOJIY4cQRNhgoM5vEKSgE/view?usp=sharing"
+          target="_blank"
+          class="portfolio-button"
+        >
+          View Our Portfolio
+        </a>
+      </div>
+    </section>
+
+    <section id="works" data-aos="fade-up">
+      <h1 style="text-align: center;">Our Works</h1>
+      <div class="project-gallery">
+        <div class="project-item">
+          <img src="images/1.jpg" alt="Luxury Apartment" />
+          <h4>Living Room with Marble Accents</h4>
+          <p>Sophisticated elegance with high-gloss marble panels and soft ambient lighting.</p>
+        </div>
+        <div class="project-item">
+          <img src="images/2.jpg" alt="Office Room" />
+          <h4>Office Lounge Area</h4>
+          <p>A warm-toned executive lounge designed for comfort and focus.</p>
+        </div>
+        <div class="project-item">
+          <img src="images/3.jpg" alt="Commercial Interior Fast Food Restaurant" />
+          <h4>Fast Food Restaurant</h4>
+          <p>Playful minimalism in a modern quick-service restaurant layout.</p>
+        </div>
+        <div class="project-item">
+          <img src="images/4.jpg" alt="Apartment Living Room" />
+          <h4>Modern Apartment Living Room</h4>
+          <p>Urban sophistication with custom paneling and panoramic city views.</p>
+        </div>
+        <div class="project-item">
+          <img src="images/5.jpg" alt="Bedroom" />
+          <h4>Minimalist Bedroom with Wood Accents</h4>
+          <p>A cozy retreat blending texture, storage, and soft lighting.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h3>Consultation Form</h3>
+      <div class="contact-container">
+        <form id="contactForm" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Input Your Name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Input Your Email" required />
+
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone" placeholder="Input Your Phone Number" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Message" required></textarea>
+
+          <label for="via">Via:</label>
+          <select id="via" name="via">
+            <option value="">-- Select Option --</option>
+            <option value="whatsapp-call">Whatsapp Call</option>
+            <option value="zoom">Zoom Call</option>
+          </select>
+
+          <button type="submit">Send</button>
+        </form>
+
+        <div class="contact-info">
+          <h4>Contact Us</h4>
+          <p>
+            <i class="fas fa-phone"></i>
+            <strong>Phone:</strong>
+            <a href="https://wa.me/6281215892908?text=Halo%20saya%20tertarik%20dengan%20layanan%20desain%20interior%20Anda" target="_blank">+62 812 1589 2908</a>
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <strong>Email:</strong>
+            <a href="mailto:adlivingson@gmail.com?subject=Konsultasi%20Desain%20Interior" target="_blank">adlivingson@gmail.com</a>
+          </p>
+          <p>
+            <i class="fab fa-instagram"></i>
+            <strong>Instagram:</strong>
+            <a href="https://www.instagram.com/adlivingson" target="_blank">@adlivingson</a>
+          </p>
+          <p>
+            <i class="fab fa-linkedin"></i>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/company/adlivingson" target="_blank">ADLIVINGSON Studio</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer data-aos="fade-up">
+      <p>&copy; ADLIVINGSON, 2025. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/adlivingson" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/company/adlivingson" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true, duration: 800, easing: 'ease-in-out' });
+
+      document.querySelectorAll('.service-card').forEach(card => {
+        card.addEventListener('click', function (e) {
+          e.preventDefault();
+          const service = card.dataset.service;
+          const message = encodeURIComponent(`Halo, saya tertarik untuk berkonsultasi mengenai layanan ${service} dari ADLIVINGSON Studio.`);
+          const phone = "6281215892908";
+          const waLink = `https://wa.me/${phone}?text=${message}`;
+          window.open(waLink, '_blank');
+        });
+      });
+    </script>
+  </body>
+</html>
