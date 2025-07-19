@@ -359,3 +359,10 @@ footer .social-icons a:hover {
 
 /* === IMPORT FONT === */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* === LOGO MENGECIL DI MOBILE === */
+@media (max-width: 768px) {
+  .branding img {
+    width: 250px; /* Ubah ke ukuran yang kamu mau, misal: 200px, 220px, dst */
+  }
+}
